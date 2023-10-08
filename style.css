@@ -6,6 +6,22 @@
     font-family: 'Poppins', sans-serif;
   }
 
+/* Animation */
+.navbar,
+.logo-placeholder,
+.headline h1,
+.description,
+.card,
+.card-2,
+.card-3,
+.card-button button,
+.about-title h2,
+.about-description,
+.contact-title h2,
+.contact-description p,
+.submit-button {
+  transition: all 0.3s ease;
+}
   @media screen and (max-width: 375px) {
     .navbar {
       display: flex;
