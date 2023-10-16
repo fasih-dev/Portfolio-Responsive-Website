@@ -298,6 +298,10 @@
       line-height: 24px;
       letter-spacing: 0.51px;
     }
+
+    .cursor{
+      display: none;
+    }
   
     .about-section {
       display: inline-grid;
@@ -700,6 +704,7 @@
       font-style: normal;
       font-weight: 500;
       line-height: 24px; /* 150% */
+      padding-bottom: 0 !important;
     }
     
   .card-container {
@@ -893,7 +898,7 @@
 
   .about-section {
     width: 1440px;
-    height: 924px;
+    height: 730px;
     flex-shrink: 0;
     display: grid;
     grid-template-columns: 40% 60%;
@@ -952,6 +957,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 10px;
   }
 
   .connect {
@@ -1068,11 +1074,20 @@
 
   .card-button-2 {
     display: flex;
-    padding: 12px 169px 12px 0;
-    align-items: center;
+    padding: 16px 39.635px 56.635px 0px;
+    align-items: flex-start;
+    gap: 250px;
   }
 
+  .cursor{
+    width: 56.999px;
+height: 56.999px;
+transform: rotate(-358.539deg);
+  }
   .card-button-2 button {
+    display: flex;
+    padding: 12px 169px 12px 0;
+    align-items: center;
     display: flex;
     padding: 12px;
     align-items: center;
